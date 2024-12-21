@@ -30,7 +30,8 @@ const App = () => {
     labels: datas.map(i => i.labels),
     datasets: [{
       label: "Sales",
-      data: datas.map(i => i.values)
+      data: datas.map(i => i.values),
+      backgroundColor:["red", "pink"]
     }]
   }
 
